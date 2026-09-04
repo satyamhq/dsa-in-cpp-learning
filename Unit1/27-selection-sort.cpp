@@ -6,7 +6,7 @@ using namespace std;
 int main() {
     // Create the array
     int arr[] = {64, 24, 12, 22, 11};
-    // find the lenght of array
+    // find the length of array
     int len = sizeof(arr) / sizeof(arr[0]);
     // start traversing the array
     for (int i = 0; i < len - 1; i++) {
